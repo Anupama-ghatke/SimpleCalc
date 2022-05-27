@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>TempConversion</title>
+</head>
+
+<body bgcolor="lavenderblush" text="black" link="blue" vlink="blue" alink="blue">
+    <h>
+        <div class="head1">
+            Temperature Conversion
+        </div>
+        <br>
+        <div class="navbar">
+            <a href="index.html">Home <i class="material-icons">home</i></a>
+            <a href="celsius.html">°C To (°F and K)<i class="material-icons">autorenew</i></a>
+            <a href="kelvin.html">K To (°C and °F)<i class="material-icons">autorenew</i></a>
+            <a href="fahrenheit.html">°F To (°C and K)<i class="material-icons">autorenew</i></a>
+        </div>
+    </h>
+    <div id="contentout">
+        <div id="content">
+            <div class="panel" style="padding:12px;">
+                <table width="400" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="300"><b>From:</b></td>
+                            <td width="100"><b>Celsius</b></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="display" type="number" id="in">
+                            </td>
+                            <td>
+                                <input class="small" value="°C" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="300"><b><br><br>To:</b></td>
+                            <td width="100"><b><br><br>Fahrenheit</b></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="display" id="out1">
+                                    <span style="color:#cfcbcb;">Fahrenheit</span>
+                                </div>
+                            </td>
+                            <td>
+                                <input class="small" value="°F" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="300"><b><br><br>To:</b></td>
+                            <td width="100"><b><br><br>Kelvin</b></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="display" id="out2">
+                                    <span style="color:#cfcbcb;">Kelvin</span>
+                                </div>
+                            </td>
+                            <td>
+                                <input class="small" value="K" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b><br><br><br></b>
+                                <input class="button" type="button" value="Result" onclick="celsius()">
+                                <input class="button" type="button" value="Reset" onclick="reset()">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+
+</html>

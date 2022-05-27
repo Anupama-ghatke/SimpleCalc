@@ -1,0 +1,226 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.head1 {
+    background-color: rgb(122, 181, 218);
+    background-image: linear-gradient(to bottom right, rgb(125, 125, 252), rgb(196, 234, 247));
+    overflow: hidden;
+    border: solid black 1px;
+    color: black;
+    border-radius: 5px;
+    font-family: serif;
+    font-size: 50px;
+    padding: 10px;
+    width: 98%;
+    text-decoration: none;
+}
+
+.head {
+    overflow: hidden;
+    border: solid black 1px;
+    color: black;
+    border-radius: 5px;
+    font-family: serif;
+    padding: 10px;
+    width: 98%;
+    text-decoration: none;
+}
+
+.display {
+    background-color: white;
+    border: solid black 0.5px;
+    color: black;
+    font-size: x-large;
+    width: 300px;
+    height: 30px;
+}
+
+.small {
+    background-color: lemonchiffon;
+    background-image: linear-gradient(to bottom right, rgb(187, 238, 176), rgb(248, 242, 187));
+    color: black;
+    border: solid black 0.5px;
+    font-size: x-large;
+    width: 100px;
+    height: 30px;
+}
+
+.button {
+    background-color: rgb(60, 60, 60);
+    border: solid black 1px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: large;
+    width: 100px;
+    border-radius: 4px;
+    height: 20%;
+}
+
+.panel {
+    background-color: silver;
+    background-image: linear-gradient(to bottom right, rgb(201, 201, 245), rgb(192, 160, 160));
+    padding: 15px;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: auto;
+    width: 415px;
+    text-decoration: none;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(60, 60, 60);
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.button:hover {
+    background-color: blue;
+}
+
+#contentout {
+    width: 1000px;
+    padding-top: 15px;
+    margin: auto;
+    text-align: left;
+    overflow: auto;
+}
+
+#content {
+    padding: 0px 0px 15px 0px;
+    width: 728px;
+    float: left;
+}
+
+/* Mobile view  */
+@media only screen and (max-width: 600px) {
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .head1 {
+        background-color: rgb(122, 181, 218);
+        background-image: linear-gradient(to bottom right, rgb(125, 125, 252), rgb(196, 234, 247));
+        overflow: hidden;
+        border: solid black 1px;
+        color: black;
+        border-radius: 5px;
+        font-family: serif;
+        font-size: 50px;
+        padding: 10px;
+        width: 98%;
+        text-decoration: none;
+    }
+
+    .head {
+        overflow: hidden;
+        border: solid black 1px;
+        color: black;
+        border-radius: 5px;
+        font-family: serif;
+        padding: 10px;
+        width: 98%;
+        text-decoration: none;
+    }
+
+    .display {
+        background-color: white;
+        border: solid black 0.5px;
+        color: black;
+        font-size: x-large;
+        width: 300px;
+        height: 30px;
+    }
+
+    .small {
+        background-color: lemonchiffon;
+        background-image: linear-gradient(to bottom right, rgb(187, 238, 176), rgb(248, 242, 187));
+        color: black;
+        border: solid black 0.5px;
+        font-size: x-large;
+        width: 100px;
+        height: 30px;
+    }
+
+    .button {
+        background-color: rgb(60, 60, 60);
+        border: solid black 1px;
+        color: white;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: large;
+        width: 100px;
+        border-radius: 4px;
+        height: 20%;
+    }
+
+    .panel {
+        float: left;
+        background-color: silver;
+        background-image: linear-gradient(to bottom right, rgb(201, 201, 245), rgb(192, 160, 160));
+        padding: 15px;
+        border: solid black 1px;
+        border-radius: 5px;
+        width: 415px;
+        text-decoration: none;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(60, 60, 60);
+    }
+
+    .navbar a {
+        float: left;
+        color: white;
+        text-align: center;
+        font-size: large;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover,
+    .button:hover {
+        background-color: blue;
+    }
+
+    #contentout {
+        float: left;
+        width: 1000px;
+        padding-top: 15px;
+        text-align: left;
+        overflow: auto;
+    }
+
+    #content {
+        float: left;
+        padding: 0px 0px 15px 0px;
+        width: 728px;
+        float: left;
+    }
+
+
+}
